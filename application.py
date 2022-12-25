@@ -6,7 +6,7 @@ from flask import Flask, redirect, session, url_for
 
 import settings
 
-app = Flask('app')
+application = app = Flask('app')
 app.secret_key = settings.APP_SECRET_KEY
 
 oauth = OAuth(app)
