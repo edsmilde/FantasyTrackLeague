@@ -1,2 +1,4 @@
 venv
 venv/
+auth.sh
+*.pyc
