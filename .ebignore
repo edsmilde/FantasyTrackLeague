@@ -1,7 +1,0 @@
-venv
-venv/
-auth.sh
-*.pyc
-.git/
-.git
-.gitignore
