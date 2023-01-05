@@ -2,6 +2,7 @@ venv
 venv/
 auth.sh
 auth.env.list
+secrets.py
 *.pyc
 
 # Elastic Beanstalk Files

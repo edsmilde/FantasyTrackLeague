@@ -25,8 +25,9 @@ oauth.register(
 @app.route('/')
 def hello_world():
   username = session.get('user', {}).get('userinfo', {}).get('name')
+  dump = json.dumps(session.get('user', {}), indent=4)
   if username:
-    return f'Hello, {username}!'
+    return f'Hello, {username}! <textarea>{dump}</textarea>'
   return 'Hello, world!'
 
 
